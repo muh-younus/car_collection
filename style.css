@@ -1,0 +1,107 @@
+*{
+    padding: 0;
+    margin: 0;
+    color: white;
+}
+
+#Navbar{
+
+    width: 100%;
+    height: 60px;
+    background-color: black;
+    
+    z-index: 1;
+    align-items: center;
+    text-align: center;
+    
+}
+
+.space{
+
+    width: 100%;
+    height: 10px;
+}
+a{
+    padding-right: 140px;
+    text-decoration: none;
+}
+button{
+
+    background-color: yellow;
+    cursor: pointer;
+}
+
+#amazon{
+
+    font-size: 25px;
+}
+
+.content{
+
+    padding: 6px 0px;
+    
+    position: relative;
+}
+
+.content .div1{
+
+    width: 400px;
+    height: 300px;
+    
+    /* background-color: rgba(12,167,0,0.5); */
+    display: inline-block;
+    margin-left: 17px;
+    
+    
+   
+}
+
+.div11{
+
+    background-image: url(./car1.webp);
+    background-position: center;
+    position: relative;
+
+}
+
+.div12{
+
+    background-image: url(./car2);
+    background-position: center;
+    position: relative;
+    top: 16px;
+    
+}
+.div13{
+
+    background-image: url(./car3.jpg);
+    background-position: center;
+    background-size: cover;
+    
+}
+.div12{
+
+    background-image: url(./car2);
+    background-position: center;
+    background-size: cover;
+    
+}
+
+.div14{
+
+    background-image: url(./car4.jpg);
+    background-position: center;
+    background-size: cover;
+    
+}
+
+
+
+.child1{
+
+    width: 400px;
+    height: 10px;
+    position: absolute;
+    background-color:aqua;
+    bottom: 0px;
+}
