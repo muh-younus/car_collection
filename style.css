@@ -14,7 +14,133 @@
     align-items: center;
     text-align: center;
     
+    
 }
+#amazon{
+
+    position: relative;
+    width: max-content;
+
+}
+
+#Navbar #amazon::before{
+
+    content: "";
+    width: 0px;
+    transition: all 0.5 ease-out;
+    
+
+
+}
+
+#Navbar #amazon:hover::before{
+
+    
+
+    width: 62%;
+    height: 3px;
+    background: linear-gradient(to right,green, red , blue);
+    border-radius: 10px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    
+}
+
+#account{
+
+    position: relative;
+    width: max-content;
+
+}
+
+#Navbar #account::before{
+
+    content: "";
+    width: 0px;
+    transition: all 0.5 ease-out;
+    
+
+
+}
+
+#Navbar #account:hover::before{
+
+    
+
+    width: 29%;
+    height: 3px;
+    background: linear-gradient(to right,green ,red , blue);
+    border-radius: 10px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    
+}
+
+#cart{
+
+    position: relative;
+    width: max-content;
+
+}
+
+#Navbar #cart::before{
+
+    content: "";
+    width: 0px;
+    transition: all 0.5 ease-out;
+    
+
+
+}
+
+#Navbar #cart:hover::before{
+
+    
+
+    width: 29%;
+    height: 3px;
+    background: linear-gradient(to right,green ,red , blue);
+    border-radius: 10px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    
+}
+
+#contact{
+
+    position: relative;
+    width: max-content;
+
+}
+
+#Navbar #contact::before{
+
+    content: "";
+    width: 0px;
+    transition: all 0.5 ease-out;
+    
+
+
+}
+
+#Navbar #contact:hover::before{
+
+    
+
+    width: 35%;
+    height: 3px;
+    background: linear-gradient(to right,green ,red , blue);
+    border-radius: 10px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    
+}
+
+
 
 .space{
 
@@ -27,7 +153,8 @@ a{
 }
 button{
 
-    background-color: yellow;
+    background-color: black;
+    box-shadow: 10px 10px 20px rgba(0,0,0,0.3);
     cursor: pointer;
 }
 
