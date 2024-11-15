@@ -262,3 +262,44 @@ button:hover{
     background-color:aqua;
     bottom: 0px;
 }
+
+.load{
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #3b667a;
+    margin-top: 15px;
+}
+
+.loader{
+
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    background-color: burlywood;
+    border: 10px solid #B5A43B;
+    border-top: 10px solid #3CB5B5;
+    margin-top: 20px;
+    animation: rotate 3s ease-in 0s infinite normal;
+
+    
+
+}
+
+.loader:hover {
+    animation-play-state: paused;
+  }
+
+@keyframes rotate{
+
+    from {
+
+        transform: rotate(0deg);
+    }
+
+    to {
+
+        transform: rotate(360deg);
+    }
+}
