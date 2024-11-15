@@ -199,6 +199,7 @@ button:hover{
     background-image: url(./car1.webp);
     background-position: center;
     position: relative;
+    transition: all 2s ease;
 
 }
 
@@ -206,30 +207,48 @@ button:hover{
 
     background-image: url(./car2);
     background-position: center;
-    position: relative;
-    top: 16px;
+    transform: absolute;
+    transition: all 2s ease;
     
+    
+    
+}
+
+.div1:hover{
+
+    transform: scale(1.1);
 }
 .div13{
 
     background-image: url(./car3.jpg);
     background-position: center;
     background-size: cover;
-    
+    transition: all 2s ease;
 }
-.div12{
+.div21{
 
     background-image: url(./car2);
     background-position: center;
     background-size: cover;
+    transition: all 2s ease;
     
 }
 
-.div14{
+.div22{
 
     background-image: url(./car4.jpg);
     background-position: center;
     background-size: cover;
+    transition: all 2s ease;
+    
+}
+
+.div23{
+
+    background-image: url(./car4.jpg);
+    background-position: center;
+    background-size: cover;
+    transition: all 2s ease;
     
 }
 
